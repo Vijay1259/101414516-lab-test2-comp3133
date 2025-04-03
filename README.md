@@ -1,59 +1,43 @@
-# 101414516LabTest2Comp3133
+SpaceX Mission Dashboard
+Overview
+The SpaceX Mission Dashboard is a modern web app designed to showcase SpaceX missions in a clean and interactive way. It’s user-friendly and makes it easy for anyone to browse through various missions, check out details, and filter them by launch year, mission status, and more. It’s built to be responsive, so it works well on desktops, tablets, and phones.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+Features
+Mission Cards: Missions are displayed as cards in a neat grid format, showing the mission title, launch year, and status at a glance.
 
-## Development server
+Filters: You can easily filter missions by year or status (like successful or failed). The filtered results are shown right away.
 
-To start a local development server, run:
+Smooth Animations: Hover effects and animations are added for a better user experience.
 
-```bash
-ng serve
-```
+Responsive Design: It looks good on all devices, whether you’re on a computer, tablet, or mobile.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Detailed View: Click on a mission card to see more details like the mission patch, launch date, and outcome, all organized nicely.
 
-## Code scaffolding
+Technology Stack
+Frontend:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+HTML5, CSS3 (Flexbox, Grid)
 
-```bash
-ng generate component component-name
-```
+JavaScript (ES6+)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Angular (or any framework you’re using)
 
-```bash
-ng generate --help
-```
+Google Fonts (Roboto, Poppins)
 
-## Building
+Extras:
 
-To build the project run:
+CSS Preprocessors like SASS or LESS (optional)
 
-```bash
-ng build
-```
+Git for version control
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+npm for managing dependencies
 
-## Running unit tests
+Usage
+Browsing Missions: The dashboard shows all missions as cards. Each card has the mission title, year, and status.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Filtering: Use filters to narrow down the list by year or status. Results update instantly.
 
-```bash
-ng test
-```
+Viewing Details: Click on a card to see more info about the mission, like the mission patch, launch date, and result.
 
-## Running end-to-end tests
+Responsive Layout: Works smoothly across all devices, from desktops to mobile phones.
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
